@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wave BG</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <!-- Header section -->
-    <div class="header">
-        <div class="innerheader flex">
-            <img src="./img/logo.png">
-            <h1>Sea Waves</h1>
-        </div>
-
-        <!-- Waves container -->
-        <div>
-            <svg
+<svg
           class="waves"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -52,14 +33,4 @@
             />
             <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
           </g>
-            </svg> 
-        </div>
-
-        <!-- header end -->
-        <!-- main content// -->
-        <div class="content flex">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente et dolores eligendi maxime similique quia dignissimos sint. Culpa, beatae quos?
-        </div>
-    </div>
-</body>
-</html> 
+        </svg>
